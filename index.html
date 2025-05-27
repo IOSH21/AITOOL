@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Research Web Visualization</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/vis-network/styles/vis-network.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Research Web Visualizer</h1>
+    </header>
+    <main>
+        <div class="input-section">
+            <input type="text" id="urlInput" placeholder="Paste a URL here">
+            <button id="addUrlButton">Add URL</button>
+        </div>
+        <div id="network-graph-container">
+            <!-- The network graph will be rendered here by JavaScript -->
+        </div>
+    </main>
+    <footer>
+        <p>AITOOL Project</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
